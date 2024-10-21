@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    text-decoration: none;
+}
+body{
+    margin:0 ;
+    background-color: black;
+    background-size: cover;
+    color: white;
+    
+}
+.navbar{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 25px; padding-right: 25px;margin-bottom: 100px;
+    background-color: green;
+    position: sticky;
+    top: 0px;
+   
+
+}
+.navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+}
+.logo a{
+    font-size: 30px; font-weight: 900; color:black;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+     font-size: 20px; font-weight: 200; margin: 25px;
+}
+.nav-item{
+    color: white;
+}
+.nav-item:hover{
+    color: red;
+}
+button{
+    background: white; margin-left: 10px; border-radius: 25px; padding: 10px;  width: 90px;
+}
+.btn1:hover{
+    background-color: rgb(78, 78, 237);
+}
+.btn2:hover{
+    color: white;
+}
+button a{
+    color: black; font-weight: bold;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 50px;
+   
+}
+.home-left{
+    width: 50vw;
+    text-align: right;
+    padding-left: 100px;
+    color: white;
+    
+}
+.home-right{
+    width: 40vw;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+h1{
+    font-family: "Baskervville SC", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+.services{
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.ser-h1{
+    color: rgb(32, 213, 32);
+    font-family: "Bodoni Moda SC", serif;
+   
+}
+.sub-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.service-card{
+    border: 2px solid greenyellow;
+    margin: 30px;
+    width: 400px;
+
+}
+.service-card:hover{
+    transform: scale(1.05);
+    border-color: yellow;
+}
+.sc-h1{
+    font-family: "Raleway", sans-serif;
+}
+.contact{
+    text-align: center;
+    margin: 0;
+    top: 50px;
+}
+.instagram{
+    height: 30px;
+   width: 30px;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+}
+.social-icon{
+    padding: 20px;
+}
